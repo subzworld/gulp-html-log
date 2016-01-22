@@ -1,0 +1,32 @@
+{
+  "name": "gulp-html-log",
+  "version": "1.0.0",
+  "description": "A simple reporter for gulp-jshint that writes it's output to an HTML file. The name of the html file can be included by the user in the gulp task or it will default to a predefined name (jshint-output.html)",
+  "main": "index.js",
+  "scripts": {
+    "test": "na"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/subzworld/gulp-html-log.git"
+  },
+  "peerDependencies": {
+    "gulp": "*",
+    "gulp-jshint": "*"
+  },
+  "devDependencies": {
+    "gulp-jshint": "~1.6.1",
+    "gulp-util": "~2.2.14",
+    "mocha": "~1.19.0",
+    "should": "~3.3.1"
+  },
+  "keywords": [
+    "gulp",
+    "jshint",
+    "reporter",
+    "html logger",
+  ],
+  "author": "Subroto",
+  "_id": "gulp-html-reporter",
+  "license": "MIT"
+}
